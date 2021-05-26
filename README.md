@@ -12,7 +12,7 @@ The maze solver bot code is split in two parts:
 1. (First Part): The robot finds its way out from a "non-known perfect maze". Does not matter where you put it inside the maze, it will find a "solution".
 2. (Second Part): Once the robot found a possible maze solution, it should optimize its solution finding the "shortest path from start to finish".
 
-To find the solution of the maze, the bot uses "Right Hand Rule". If in the maze all its walls are connected together maze's outer boundary, then by keeping one hand in contact with one wall of the maze, the solver will not to get lost and will reach the exit. Steps in Left Hand Rule are:
+To find the solution of the maze, the bot uses "Right Hand Rule". If in the maze all its walls are connected together maze's outer boundary, then by keeping one hand in contact with one wall of the maze, the solver will not to get lost and will reach the exit. Steps in Right Hand Rule are:
 
 1. At "Cross": Go to Right
 2. At "T": Go to Right
